@@ -4,20 +4,20 @@
   --main_transition: 0.5s;
 }
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 7px;
 }
 ::-webkit-scrollbar-track {
   box-shadow: inset 0 0 5px grey;
   background-color: #eee;
 }
 ::-webkit-scrollbar-thumb {
-  background-color: #ccc;
-  border: 1px solid #333;
+  background-color: #444;
+  border: 1px solid #fff;
   border-radius: 5px;
 }
 body {
   padding-top: 61px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 .overlay::after {
   content: "";
@@ -411,6 +411,7 @@ body {
   font-size: 20px;
 }
 /* end statistics */
+
 /* start our skills */
 .skills {
   padding-top: var(--section_padding);
@@ -434,6 +435,7 @@ body {
   margin-top: 0;
 }
 /* end our skills */
+
 /* start contact us */
 .contact-us {
   padding-top: var(--section_padding);
@@ -470,6 +472,7 @@ body {
   margin-top: 26px;
 }
 /* end contact us */
+
 /* start clients */
 .clients {
   padding-top: var(--section_padding);
@@ -485,6 +488,7 @@ body {
   opacity: 1;
 }
 /* end clients */
+
 /* start footer */
 .footer {
   padding-top: var(--section_padding);
@@ -555,6 +559,7 @@ body {
   width: 130px;
 }
 /* end footer */
+
 /* start copyright */
 .copyright {
   padding: 20px 0;
@@ -566,3 +571,75 @@ body {
   color: var(--main_color);
 }
 /* end copyright */
+
+/* start breadcrumb */
+.bread_crumb {
+  background-color: #f5f5f5;
+}
+.bread_crumb .breadcrumb {
+  margin-bottom: 0;
+}
+/* end breadcrumb */
+
+/* start manager */
+.manager {
+  padding-top: var(--section_padding);
+}
+.manager h2 {
+  font-weight: bold;
+}
+.manager button,
+.manager button:hover {
+  background-color: #333;
+  color: #fff;
+  border-color: #333;
+}
+/* end manager */
+
+/* start about us */
+.about-us {
+  padding-top: var(--section_padding);
+  padding-bottom: var(--section_padding);
+}
+/* end about us */
+
+/* start about features */
+.features.about-features .feat i,
+.features.about-features .feat h3 {
+  font-weight: 900;
+}
+.features.about-features .feat p.lead {
+  font-size: 17px;
+}
+/* end about features */
+
+/* start faq */
+.faq {
+  padding-top: var(--section_padding);
+  padding-bottom: calc(var(--section_padding) / 2);
+}
+.accprdion {
+  padding-bottom: var(--section_padding);
+}
+.accprdion .panel-title {
+  font-size: 20px;
+}
+.accprdion .panel-title > a {
+  display: block;
+  text-decoration: none;
+  padding: 10px 0;
+}
+.accprdion .panel-title > a::after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f063";
+  float: right;
+}
+.accprdion .panel-title > a.collapsed::after{
+  content: "\f061";
+} 
+.accprdion .panel-default > .panel-heading + .panel-collapse > .panel-body {
+  font-size: 17px;
+  letter-spacing: 1px;
+}
+/* end faq */
