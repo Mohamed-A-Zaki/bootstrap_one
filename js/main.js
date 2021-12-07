@@ -4,7 +4,7 @@ window.onload = setTimeout(() => {
   let loading_overlay = document.querySelector(".loading-overlay");
   loading_overlay.style.opacity = 0;
   document.body.style.overflow = "auto";
-  // loading_overlay.style.display = "none";
+  loading_overlay.style.zIndex = "-1";
 }, 2000);
 
 // start carousel
