@@ -1,3 +1,12 @@
+// start loading page
+
+window.onload = setTimeout(() => {
+  let loading_overlay = document.querySelector(".loading-overlay");
+  loading_overlay.style.opacity = 0;
+  document.body.style.overflow = "auto";
+  // loading_overlay.style.display = "none";
+}, 2000);
+
 // start carousel
 
 $(".carousel").carousel({
