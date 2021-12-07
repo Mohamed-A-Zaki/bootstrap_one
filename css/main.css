@@ -18,7 +18,6 @@
 body {
   padding-top: 61px;
   font-family: "Open Sans", sans-serif;
-  overflow: hidden;
 }
 .overlay::after {
   content: "";
@@ -32,7 +31,7 @@ body {
 }
 /* start spinner */
 .loading-overlay {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;

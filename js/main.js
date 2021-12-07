@@ -1,9 +1,9 @@
 // start loading page
 
-window.onload = setTimeout(() => {
-  let loading_overlay = document.querySelector(".loading-overlay");
+let loading_overlay = document.querySelector(".loading-overlay");
+
+setTimeout(() => {
   loading_overlay.style.opacity = 0;
-  document.body.style.overflow = "auto";
   loading_overlay.style.zIndex = "-1";
 }, 2000);
 
